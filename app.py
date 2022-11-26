@@ -39,7 +39,6 @@ def ratings(rating_link):
          genre = x.text
          genre_list.append(genre)
 
-    #print("\t\t\t\t\t\t",name.text,"\t\t\t\t",rate.text,"\t\t\t\t",genre_list)
     print(""," "*(50-len(name.text)),name.text," "*(45-len(name.text)),"",rate.text," "*(18-len(rate.text)),genre_list)
 
 
